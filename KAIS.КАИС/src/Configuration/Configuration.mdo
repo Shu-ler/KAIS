@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b433a59c-8164-464a-86df-2fc0416042ad">
+  <name>КАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс с магазином KAIS</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2fe06a05-2a1f-4cb2-8886-2f07f5a641b4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0154a061-2206-4fc5-87be-7b0dcf8c62c6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c02d5d82-3feb-4e66-8c51-88d47032a423"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="00051b92-035a-484c-9303-4033c72a9eb8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3362ad08-f00e-4b4b-bc42-2e747f79aa92"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0879ddaa-a6d2-418e-979f-20730b9abdc4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="97f30213-ac1e-49a9-a85a-3888528014a1"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>МФ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.МФ_ОсновнаяРоль</defaultRoles>
+  <defaultRoles>Role.МФ_ПолныеПрава</defaultRoles>
+  <vendor>Филимонов И.В., +7 913 240 81 77</vendor>
+  <version>0.0.1.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Филимонов И.В., +7 913 240 81 77</value>
+  </copyright>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="d546ddda-f27d-4200-8d7c-dd0b9a510368">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.МФ_ОбъектыРасширения</subsystems>
+  <roles>Role.МФ_БазовыеПрава</roles>
+  <roles>Role.МФ_ОсновнаяРоль</roles>
+  <roles>Role.МФ_ПолныеПрава</roles>
+</mdclass:Configuration>
