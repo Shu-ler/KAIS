@@ -7,4 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>DataProcessor.МФ_НастройкиKAIS</content>
+  <content>Catalog.МФ_ПрофилиKAIS</content>
 </mdclass:Subsystem>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1e1cca4-0b5c-43e4-b65a-76c3d98e8cd3">
+  <producedTypes>
+    <objectType typeId="b132752f-518e-4644-af8b-ca3bb7251978" valueTypeId="5499b676-82ff-4e8d-bb01-569b2c32a590"/>
+    <refType typeId="4537fbb5-9257-48f1-b198-61ebf976e0bb" valueTypeId="2d0efb89-79fa-4ed1-8168-7883d8e2b7e1"/>
+    <selectionType typeId="835c43bd-9a93-4e31-8a6b-16e9d5c06f1a" valueTypeId="267e64b4-5cd6-4ba0-bb26-ff803f23e3d4"/>
+    <listType typeId="c35978fb-fe66-4805-8176-fe08d881564b" valueTypeId="ff2a9d87-1d74-45fe-8ee1-d3d88c342d92"/>
+    <managerType typeId="8663a2be-3784-4e95-9431-4b6b1032f6e0" valueTypeId="e8e73a1c-cf0b-417a-b406-54de8f5752d1"/>
+  </producedTypes>
+  <name>МФ_ПрофилиKAIS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили KAIS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МФ_ПрофилиKAIS.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Профиль KAIS</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Профили KAIS</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c7464fc1-c6e2-405f-9188-4e2fbc12274a">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04a75a78-63ec-4cf1-83f2-4527b7ea7c5d">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
