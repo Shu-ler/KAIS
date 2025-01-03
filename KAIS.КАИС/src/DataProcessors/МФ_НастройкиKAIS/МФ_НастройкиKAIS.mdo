@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c210d2c-185a-45bb-92b7-d6ebea113bb8">
+  <producedTypes>
+    <objectType typeId="0e045c3c-5654-4adc-8cd8-fb41a2584879" valueTypeId="ec5429d1-ad33-4e94-8e4f-a33eae5def3a"/>
+    <managerType typeId="75ccde77-d898-4a07-80dc-28c054bdc297" valueTypeId="9fad0bb5-0731-475f-aa57-df0246416bc0"/>
+  </producedTypes>
+  <name>МФ_НастройкиKAIS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки KAIS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МФ_НастройкиKAIS.Form.Форма</defaultForm>
+  <forms uuid="8b52a8b5-fa70-472c-80d2-409e289b9bde">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f383d3b4-3e0a-49be-8ae7-3a1349676402">
+    <name>ИнтеграцияСKAIS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграция с KAIS</value>
+    </synonym>
+    <comment>Настройка интеграции с интернет-магазином KAIS</comment>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

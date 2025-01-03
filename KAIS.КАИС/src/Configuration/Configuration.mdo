@@ -50,8 +50,10 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.МФ_ОбъектыРасширения</subsystems>
   <roles>Role.МФ_БазовыеПрава</roles>
   <roles>Role.МФ_ОсновнаяРоль</roles>
   <roles>Role.МФ_ПолныеПрава</roles>
+  <dataProcessors>DataProcessor.МФ_НастройкиKAIS</dataProcessors>
 </mdclass:Configuration>

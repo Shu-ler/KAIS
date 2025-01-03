@@ -6,5 +6,5 @@
     <value>Собственные объекты расширения КАИС</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.МФ_НастройкиKAIS</content>
 </mdclass:Subsystem>
