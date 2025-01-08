@@ -55,6 +55,7 @@
   <roles>Role.МФ_БазовыеПрава</roles>
   <roles>Role.МФ_ОсновнаяРоль</roles>
   <roles>Role.МФ_ПолныеПрава</roles>
+  <commonModules>CommonModule.МФ_Заказы</commonModules>
   <catalogs>Catalog.МФ_ПрофилиKAIS</catalogs>
   <dataProcessors>DataProcessor.МФ_НастройкиKAIS</dataProcessors>
 </mdclass:Configuration>
