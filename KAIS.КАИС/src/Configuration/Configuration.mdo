@@ -52,10 +52,13 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.МФ_ОбъектыРасширения</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
   <roles>Role.МФ_БазовыеПрава</roles>
   <roles>Role.МФ_ОсновнаяРоль</roles>
   <roles>Role.МФ_ПолныеПрава</roles>
   <commonModules>CommonModule.МФ_Заказы</commonModules>
+  <constants>Constant.МФ_КАИСОбновлено</constants>
   <catalogs>Catalog.МФ_ПрофилиKAIS</catalogs>
+  <enums>Enum.МФ_КАИССтатусыЗаказов</enums>
   <dataProcessors>DataProcessor.МФ_НастройкиKAIS</dataProcessors>
 </mdclass:Configuration>

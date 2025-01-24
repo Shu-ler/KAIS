@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa3d53ae-790c-40b1-a592-78a93411223f">
+  <producedTypes>
+    <refType typeId="c9a97831-ef1b-4021-a5b6-11d1cd444180" valueTypeId="4af87103-3c7a-49cb-97c9-d665f8ace26c"/>
+    <listType typeId="4bd7c2ab-af66-4e6b-86cc-674d061da37d" valueTypeId="d26fcbe2-11ed-49a5-af47-4f91481ddcc2"/>
+    <managerType typeId="78e8c4a2-eea9-4f3f-857a-b65aaf538486" valueTypeId="5b4b8771-1d25-4331-b819-b7e3c736b390"/>
+  </producedTypes>
+  <name>МФ_КАИССтатусыЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов (КАИС)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="684e01df-c552-4ebe-b8e7-454d053740bf">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="957f1e56-e30f-4284-98b0-b9ed7a167218">
+    <name>Отработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3f13c64-0e38-4068-a918-a2ef58c760f2">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d2c434e-ba4f-4d30-b6c9-bee5e0629f76">
+    <name>НаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="003d5501-5054-450d-8821-d4c4603a2522">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74df4053-ca9d-49ac-ba9d-94af1380981e">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

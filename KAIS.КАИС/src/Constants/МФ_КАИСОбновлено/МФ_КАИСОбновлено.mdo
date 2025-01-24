@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a69c200-4dbb-43a6-aaa4-3880cc7ddd6b">
+  <producedTypes>
+    <managerType typeId="aca32cdc-bb0b-413e-a557-2dc08fae2afc" valueTypeId="b03ad69b-b3f8-4bbb-9d13-09f4d46b9c32"/>
+    <valueManagerType typeId="fe40e7e8-fdc8-450f-aeba-fb3414b14dc1" valueTypeId="094bcb07-0d96-4757-b1a0-dbde442f4814"/>
+    <valueKeyType typeId="ea3eac13-6f59-4c96-b63c-010f32e43f98" valueTypeId="69f6231d-a813-4811-8765-36a712d470e0"/>
+  </producedTypes>
+  <name>МФ_КАИСОбновлено</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАИСОбновлено</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
