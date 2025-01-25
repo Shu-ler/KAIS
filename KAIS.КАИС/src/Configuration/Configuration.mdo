@@ -57,8 +57,22 @@
   <roles>Role.МФ_ОсновнаяРоль</roles>
   <roles>Role.МФ_ПолныеПрава</roles>
   <commonModules>CommonModule.МФ_Заказы</commonModules>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
   <constants>Constant.МФ_КАИСОбновлено</constants>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.МФ_ПрофилиKAIS</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <enums>Enum.ВариантыОбеспечения</enums>
+  <enums>Enum.ВариантыОформленияПродажи</enums>
   <enums>Enum.МФ_КАИССтатусыЗаказов</enums>
+  <enums>Enum.СтатусыЗаказовКлиентов</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
   <dataProcessors>DataProcessor.МФ_НастройкиKAIS</dataProcessors>
 </mdclass:Configuration>

@@ -8,5 +8,6 @@
   </extension>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.МФ_НастройкиKAIS</content>
+  <content>Catalog.МФ_ПрофилиKAIS</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

@@ -5,5 +5,9 @@
       <command>DataProcessor.МФ_НастройкиKAIS.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.МФ_НастройкиKAIS.Command.ИнтеграцияСKAIS</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
 </cmi:CommandInterface>
