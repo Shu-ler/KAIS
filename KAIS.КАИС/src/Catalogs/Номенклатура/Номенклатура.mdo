@@ -131,4 +131,17 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="1246f9a5-0c4f-4c18-9079-598f2143d362" extendedConfigurationObject="67f48522-0ad7-470e-9baf-c8655912b8f8">
+    <name>СтавкаНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтавкиНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
 </mdclass:Catalog>

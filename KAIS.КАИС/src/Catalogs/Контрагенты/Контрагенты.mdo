@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4637d3c1-10ea-497a-97fc-921894ddfd99" extendedConfigurationObject="4259c461-12b1-4f3e-8283-5927c75afdb6">
+  <producedTypes>
+    <objectType typeId="c1f4d34a-10b1-4584-a90a-efe17d16aba1" valueTypeId="d81af9ac-d371-4089-8fec-ca80e7b2678d"/>
+    <refType typeId="c38703bf-6aae-4488-9369-df07110829b4" valueTypeId="e87d5f24-7694-4233-a22b-fb37c28e67ff"/>
+    <selectionType typeId="2b261309-9a04-47f3-b71b-10e5135b7201" valueTypeId="d08777f3-e642-414f-9e99-6c9636e18af2"/>
+    <listType typeId="9088ba55-16e5-494e-8f3e-386d3baa06b3" valueTypeId="fafadfdb-643f-4542-bd75-13e4771330a7"/>
+    <managerType typeId="6df91f6b-5ba3-4ff6-8a71-4ab75b14239a" valueTypeId="48411ed0-96e0-45d9-9d09-a7aa9c32f6a6"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="716df65e-b05f-4839-813d-94e90679e2e1" extendedConfigurationObject="ce59e7d4-ce32-4e73-8b06-cda594aec2b3">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="f104616e-450a-4475-9dc6-7097f8fc20a2">
+    <name>МФ_КодКАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код КАИС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3eab62c-0305-4a79-aebd-2d77e805db1a" extendedConfigurationObject="56ba8e3c-152e-472e-978c-1c8a27110815">
+    <name>ЮрФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ЮрФизЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>
