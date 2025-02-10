@@ -67,6 +67,7 @@
   <constants>Constant.МФ_КАИСОбновлено</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.МФ_ПрофилиKAIS</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -74,6 +75,7 @@
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <documents>Document.ЗаказКлиента</documents>
