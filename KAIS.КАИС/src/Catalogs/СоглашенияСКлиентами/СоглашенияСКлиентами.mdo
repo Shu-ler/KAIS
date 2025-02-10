@@ -100,4 +100,17 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="e9fe83fe-cfef-47d8-a130-1191af3fb3ec" extendedConfigurationObject="addf3988-43e8-4b74-b758-f4a4a346445a">
+    <name>ИспользуютсяДоговорыКонтрагентов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
 </mdclass:Catalog>
