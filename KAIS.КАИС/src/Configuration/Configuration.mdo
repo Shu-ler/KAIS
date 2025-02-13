@@ -56,7 +56,9 @@
   <roles>Role.МФ_БазовыеПрава</roles>
   <roles>Role.МФ_ОсновнаяРоль</roles>
   <roles>Role.МФ_ПолныеПрава</roles>
+  <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.МФ_Заказы</commonModules>
+  <commonModules>CommonModule.МФ_МодификацияКонфигурации</commonModules>
   <commonModules>CommonModule.МФ_ПодключаемыеКоманды</commonModules>
   <commonModules>CommonModule.МФ_ПодключаемыеКомандыВызовСервера</commonModules>
   <commonModules>CommonModule.МФ_ПодключаемыеКомандыКлиент</commonModules>
