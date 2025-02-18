@@ -70,11 +70,13 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.МФ_ПрофилиKAIS</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
@@ -87,6 +89,7 @@
   <enums>Enum.СтатусыЗаказовКлиентов</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
+  <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЮрФизЛицо</enums>
   <dataProcessors>DataProcessor.МФ_НастройкиKAIS</dataProcessors>
 </mdclass:Configuration>

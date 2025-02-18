@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="76788f5f-ca56-4ef3-86c9-52cd43015850" extendedConfigurationObject="3734619b-7059-4547-8b97-0b3393389d4d">
+  <producedTypes>
+    <refType typeId="a614e277-2d84-4fd7-b235-64c4012eeed3" valueTypeId="3db81b14-0546-44e4-991f-ba2671ca86ca"/>
+    <listType typeId="2e5214e9-359c-4ec5-a3dc-f9c927b4bbf7" valueTypeId="a070cb4a-c9d2-4f4f-ba88-80f316e6afce"/>
+    <managerType typeId="8c859fdd-50de-44ad-b57c-243eaf481116" valueTypeId="b94b6bf8-fd7b-4c2f-90a1-e00c61f5f4a7"/>
+  </producedTypes>
+  <name>ЦветаЗаметок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="42bc8644-4dc4-4c52-b1b9-4442a6287564" extendedConfigurationObject="67a71201-13e5-42a3-902f-fb3a59710dfb">
+    <name>Голубой</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>
