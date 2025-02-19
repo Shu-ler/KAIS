@@ -58,6 +58,7 @@
   <roles>Role.МФ_ПолныеПрава</roles>
   <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.МФ_Заказы</commonModules>
+  <commonModules>CommonModule.МФ_ИнтерфейсССайтом</commonModules>
   <commonModules>CommonModule.МФ_МодификацияКонфигурации</commonModules>
   <commonModules>CommonModule.МФ_ПодключаемыеКоманды</commonModules>
   <commonModules>CommonModule.МФ_ПодключаемыеКомандыВызовСервера</commonModules>
@@ -85,6 +86,7 @@
   <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВариантыОбеспечения</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
+  <enums>Enum.ЕдиницыИзмеренияВремени</enums>
   <enums>Enum.МФ_КАИССтатусыЗаказов</enums>
   <enums>Enum.СтатусыЗаказовКлиентов</enums>
   <enums>Enum.ТипыНоменклатуры</enums>

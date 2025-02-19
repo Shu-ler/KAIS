@@ -296,5 +296,18 @@
         </typeExtension>
       </extension>
     </attributes>
+    <attributes uuid="668bea1a-f7b3-4b3a-9612-70bfece5c58d" extendedConfigurationObject="ffeb3fd7-4078-4908-9b27-a77155e26744">
+      <name>Отменено</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Boolean</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
   </tabularSections>
 </mdclass:Document>

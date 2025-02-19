@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1545cb23-70ff-4283-b54b-392ec7e2260b" extendedConfigurationObject="82a9837b-7b1d-4fc6-af27-c44d94d33978">
+  <producedTypes>
+    <refType typeId="3fb83f08-0a24-43b1-b89c-46d69290234a" valueTypeId="bcbf2f9e-1d26-4600-8213-ac3533476e73"/>
+    <listType typeId="94672d25-85e2-434b-a809-ce1e4c3cba20" valueTypeId="9b934a34-4fc4-461d-ae1b-e721c9e5f6a2"/>
+    <managerType typeId="667adb18-6fc9-44bb-bdfd-5fb5099e3388" valueTypeId="cbb47ac3-d686-46b4-806d-98dc65f0bd89"/>
+  </producedTypes>
+  <name>ЕдиницыИзмеренияВремени</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <enumValues uuid="cba08ade-afd0-4a53-83e7-b714acf7978f" extendedConfigurationObject="4c7d001f-8b9f-401f-a7ce-7dbada4983bf">
+    <name>День</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>
