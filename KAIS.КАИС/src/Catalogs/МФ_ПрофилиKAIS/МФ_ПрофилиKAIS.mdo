@@ -75,7 +75,7 @@
     <name>Адрес</name>
     <synonym>
       <key>ru</key>
-      <value>Адрес</value>
+      <value>Сайт</value>
     </synonym>
     <type>
       <types>String</types>
