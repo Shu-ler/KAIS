@@ -133,6 +133,19 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="dce2dff6-a916-4e52-901b-09332333258f" extendedConfigurationObject="bfffbaed-91a9-4294-9f16-b3a80205fb4b">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <tabularSections uuid="a09666e5-23cf-43d9-891b-a23590d3e1b7" extendedConfigurationObject="7b526229-3286-418a-920a-ff15a9b3ec48">
     <producedTypes>
       <objectType typeId="c674fc9e-aaaf-4408-ae51-a7a786d2811b" valueTypeId="f8854e48-1b95-44df-af71-b0b442302a9d"/>

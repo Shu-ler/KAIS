@@ -66,6 +66,7 @@
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.ОжидаемаяОтгрузкаИлиПоступление</definedTypes>
   <definedTypes>DefinedType.Цена</definedTypes>
   <constants>Constant.МФ_КАИСОбновлено</constants>
   <catalogs>Catalog.Валюты</catalogs>
@@ -74,6 +75,7 @@
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.МФ_ПрофилиKAIS</catalogs>
+  <catalogs>Catalog.Назначения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
@@ -81,17 +83,21 @@
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
+  <catalogs>Catalog.СоглашенияСПоставщиками</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ЗаказПоставщику</documents>
   <enums>Enum.ВариантыОбеспечения</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
   <enums>Enum.ЕдиницыИзмеренияВремени</enums>
   <enums>Enum.МФ_КАИССтатусыЗаказов</enums>
   <enums>Enum.СтатусыЗаказовКлиентов</enums>
+  <enums>Enum.СтатусыЗаказовПоставщикам</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЮрФизЛицо</enums>
   <dataProcessors>DataProcessor.МФ_НастройкиKAIS</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.ЗапасыИПотребности</accumulationRegisters>
 </mdclass:Configuration>

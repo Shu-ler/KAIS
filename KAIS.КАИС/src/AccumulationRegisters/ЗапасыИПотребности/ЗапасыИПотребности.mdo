@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9e2b39ad-3b5c-4ca4-8964-3723a4abdb94" extendedConfigurationObject="f8b7177a-e10e-497a-870e-8a0109117431">
+  <producedTypes>
+    <selectionType typeId="779fa506-9899-4cb4-b31b-1ed56fc1a115" valueTypeId="43b0194c-86dd-49be-8762-affd04a01a20"/>
+    <listType typeId="8b572c89-0453-4d53-b6e5-a230d64e6a53" valueTypeId="763b839d-f836-4976-8942-0b500962ede8"/>
+    <managerType typeId="78f6d972-e4ca-4ad8-afcd-8860074d0dbc" valueTypeId="e44e5b78-5f46-407d-96db-da47aabd6b84"/>
+    <recordSetType typeId="79b92c9c-7218-43dc-88a4-64ca8a3e03b4" valueTypeId="8d99c2d4-0b7f-4bc3-8dd7-fd0c96956a19"/>
+    <recordKeyType typeId="dd499d93-9406-472d-82cb-2ae141e96c75" valueTypeId="decd0574-fc9c-4631-b7d0-2b8f6969dccd"/>
+    <recordType typeId="8634857f-4356-4b43-9a17-6f7496c62ab0" valueTypeId="a4fd0974-db09-462f-88ed-d58e2f7a694e"/>
+  </producedTypes>
+  <name>ЗапасыИПотребности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <resources uuid="1f1049a7-dc0b-4028-b947-72b740c2cc1e" extendedConfigurationObject="4256427c-6117-4032-b24a-fe3fe80b3479">
+    <name>КОбеспечению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="22f1ecc1-851c-47b4-99f4-7a3260f100a7" extendedConfigurationObject="52036866-218a-40f1-b620-3bf0ad8c374a">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="3a4d1d35-e1ca-474a-93fb-20e783f8eadf" extendedConfigurationObject="4d50d363-128e-4a9e-874f-dcd55a5764b3">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="99f8474a-e5fc-44ba-8f2a-3f000ff55b2b" extendedConfigurationObject="795b0906-d397-48a6-a53a-d642ad9d07db">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="6457e5b0-deb0-4136-b815-24aea0a478b2" extendedConfigurationObject="294f1bc8-ab72-47b2-ab6b-23004cf40406">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОжидаемаяОтгрузкаИлиПоступление</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>
