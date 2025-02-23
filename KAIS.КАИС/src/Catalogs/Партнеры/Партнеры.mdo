@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a9163f11-f059-4ed2-8faa-2a30a1c3d34c" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a9163f11-f059-4ed2-8faa-2a30a1c3d34c" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
   <producedTypes>
     <objectType typeId="694e0ef4-9190-4b0e-9b0b-89138f18ca96" valueTypeId="ed92704e-c6d7-47d2-9f93-d50316996426"/>
     <refType typeId="7fbf99cf-b3cf-48c2-847a-dbd33683808a" valueTypeId="ef6c5302-c25b-4735-b37d-0af8c2b74139"/>
@@ -11,9 +11,29 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
   <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="29e3f5d4-b5de-471a-8aba-16b7b016e891">
+      <name>НеизвестныйПартнер</name>
+      <description>Неизвестный партнер</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value>УТ-00000003</value>
+      </code>
+    </items>
+  </predefined>
   <attributes uuid="03e99826-a00f-4f73-aa51-5ec4f73a0d47" extendedConfigurationObject="2e4e19e3-f318-469a-8bd1-9678b54892a1">
     <name>Клиент</name>
     <objectBelonging>Adopted</objectBelonging>

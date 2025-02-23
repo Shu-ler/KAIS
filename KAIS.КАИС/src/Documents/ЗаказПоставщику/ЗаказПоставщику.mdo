@@ -143,6 +143,59 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="b9f1e46d-e9f1-43bd-82bd-5d1fdda8d532" extendedConfigurationObject="0c8075b9-6faf-40af-9bf1-578aeda55fa8">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="69eac391-0cf8-4642-ba37-6e3a4aa7739c" extendedConfigurationObject="48b02061-bc07-47e4-b621-d91cf421f3dd">
+    <name>ХозяйственнаяОперация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ХозяйственныеОперации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="92b98d19-d5e2-48b5-9271-d80ac88f49e0" extendedConfigurationObject="ac7d3780-d9ad-4f01-828a-37daf1764f4c">
+    <name>ЗакупкаПодДеятельность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыНалогообложенияНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b473c94d-7c1c-4dba-be82-d0be5e0396a3" extendedConfigurationObject="315433b1-08d0-4c3f-bc02-0d67b67eb287">
+    <name>НалогообложениеНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыНалогообложенияНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <tabularSections uuid="2fa1cf3c-4f28-46cb-a9c2-d8e6afdbb2b3" extendedConfigurationObject="dcee393b-d797-4bfd-be64-3bc288149128">
     <producedTypes>
       <objectType typeId="4f688719-dec7-488f-a169-40c0164da53d" valueTypeId="00b90882-d981-4651-8ee2-f6a2bc9f8278"/>
@@ -233,6 +286,24 @@
             <state>Checked</state>
             <type>CatalogRef.Назначения</type>
           </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="31935751-af98-41e0-a336-08463f9d5e93" extendedConfigurationObject="690a0f93-be8f-4a32-8881-57f1d122fbb8">
+      <name>Количество</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
         </typeExtension>
       </extension>
     </attributes>

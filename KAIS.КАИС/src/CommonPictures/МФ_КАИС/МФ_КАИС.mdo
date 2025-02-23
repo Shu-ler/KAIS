@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27740710-7017-4c0d-9be2-3d7eb9aed513">
+  <name>МФ_КАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАИС</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>
