@@ -18,4 +18,25 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </enumValues>
+  <enumValues uuid="1973596f-f4dd-47f1-9941-7d798513a0c2" extendedConfigurationObject="17f46797-d9e2-4711-b58f-438fd9fb9fcb">
+    <name>КОбеспечению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2d39158d-4a44-47eb-98cf-02f7aacc2d53" extendedConfigurationObject="6e7c22c2-a535-440b-b0e8-c70f8e9e2b96">
+    <name>Закрыт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="06be0d41-61b3-4a33-93c0-cd8ed9b31100" extendedConfigurationObject="b027cbd4-91df-45e9-b2d1-5805b9177e78">
+    <name>КОтгрузке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>

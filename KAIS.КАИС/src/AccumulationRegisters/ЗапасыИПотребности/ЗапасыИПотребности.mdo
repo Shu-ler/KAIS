@@ -32,6 +32,23 @@
       </typeExtension>
     </extension>
   </resources>
+  <resources uuid="c9f76710-d297-40df-85ec-e9acf6fec403" extendedConfigurationObject="fd2c8e08-d7c5-41b1-a555-e61c7ec66966">
+    <name>Заказано</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
   <dimensions uuid="22f1ecc1-851c-47b4-99f4-7a3260f100a7" extendedConfigurationObject="52036866-218a-40f1-b620-3bf0ad8c374a">
     <name>Номенклатура</name>
     <objectBelonging>Adopted</objectBelonging>
