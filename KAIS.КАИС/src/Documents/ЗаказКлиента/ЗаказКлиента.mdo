@@ -146,6 +146,19 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="ab70c33a-d89a-4a15-b6ae-6d5fa09930ab" extendedConfigurationObject="21767e3f-5e9d-43d3-803c-eaf6279e10db">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <tabularSections uuid="a09666e5-23cf-43d9-891b-a23590d3e1b7" extendedConfigurationObject="7b526229-3286-418a-920a-ff15a9b3ec48">
     <producedTypes>
       <objectType typeId="c674fc9e-aaaf-4408-ae51-a7a786d2811b" valueTypeId="f8854e48-1b95-44df-af71-b0b442302a9d"/>
@@ -318,6 +331,19 @@
           <types>
             <state>Checked</state>
             <type>Boolean</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="8bd0510a-2d58-49e7-8ce3-d8da3737b990" extendedConfigurationObject="60d47e52-6b3e-4f62-8337-412bddf599d2">
+      <name>Склад</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Склады</type>
           </types>
         </typeExtension>
       </extension>

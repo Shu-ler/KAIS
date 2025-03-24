@@ -49,6 +49,53 @@
       </typeExtension>
     </extension>
   </resources>
+  <resources uuid="6e6d0717-21e5-40cb-ae03-5cdcbf1264de" extendedConfigurationObject="fa84dffb-fc50-40db-b9e9-2eecc08d3aff">
+    <name>Поступит</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="b7fe160d-1b4a-4f97-af6a-40653d3a4563" extendedConfigurationObject="2a3239b5-c939-45ab-a821-679e4fe02b0c">
+    <name>ВНаличии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="1ae88822-1678-485c-9980-bbf56245b130" extendedConfigurationObject="4de10a7f-26fe-4a6f-9977-b6f11b54f8a7">
+    <name>ТипЗаписи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыЗаписейЗапасыИПотребности</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <dimensions uuid="22f1ecc1-851c-47b4-99f4-7a3260f100a7" extendedConfigurationObject="52036866-218a-40f1-b620-3bf0ad8c374a">
     <name>Номенклатура</name>
     <objectBelonging>Adopted</objectBelonging>

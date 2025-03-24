@@ -307,5 +307,18 @@
         </typeExtension>
       </extension>
     </attributes>
+    <attributes uuid="883fc6c6-ab05-4f75-831b-d156b42df2d5" extendedConfigurationObject="0a928dbc-667f-45c6-b2d7-1eb2b3c6bc1e">
+      <name>Склад</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Склады</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
   </tabularSections>
 </mdclass:Document>
