@@ -34,7 +34,7 @@
   <defaultRoles>Role.МФ_ОсновнаяРоль</defaultRoles>
   <defaultRoles>Role.МФ_ПолныеПрава</defaultRoles>
   <vendor>Филимонов И.В., +7 913 240 81 77</vendor>
-  <version>0.0.2.6</version>
+  <version>0.0.2.7</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
