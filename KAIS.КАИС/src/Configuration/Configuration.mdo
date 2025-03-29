@@ -95,6 +95,7 @@
   <enums>Enum.МФ_КАИССтатусыЗаказов</enums>
   <enums>Enum.СтатусыЗаказовКлиентов</enums>
   <enums>Enum.СтатусыЗаказовПоставщикам</enums>
+  <enums>Enum.ТипыДоговоров</enums>
   <enums>Enum.ТипыЗаписейЗапасыИПотребности</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
