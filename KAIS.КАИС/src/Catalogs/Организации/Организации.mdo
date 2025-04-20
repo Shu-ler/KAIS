@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2a71d00a-e1d8-4b52-9bc8-adccc1594c4b" extendedConfigurationObject="35a6d3c8-3832-419f-81ef-fc7c113af6a4">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2a71d00a-e1d8-4b52-9bc8-adccc1594c4b" extendedConfigurationObject="35a6d3c8-3832-419f-81ef-fc7c113af6a4">
   <producedTypes>
     <objectType typeId="e447ab3f-5d66-42a6-9fb0-161adb21dc1f" valueTypeId="edeb8638-12c6-43ba-8e87-c9639b5527cf"/>
     <refType typeId="3e71590b-3c33-488f-95b3-9da8952c24e2" valueTypeId="af72d638-a9d9-484f-9a4e-7be39933dc88"/>
@@ -13,4 +13,22 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="b86d6fef-3046-470b-8ad3-702acbb19ca1">
+    <name>МФ_КодКАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код КАИС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
